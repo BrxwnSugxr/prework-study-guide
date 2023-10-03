@@ -61,9 +61,6 @@ p {
 
 .btn-statment {
   color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* nav bar */
