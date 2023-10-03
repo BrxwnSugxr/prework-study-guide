@@ -1,0 +1,78 @@
+/* root  */
+:root {
+  --navbar-white: white;
+  --navbar-background: #333;
+  --navbar-hover: #ff6600;
+  --font-bold: bold;
+  --display-100: 100%;
+  --display-padding-10: 10px 10px 10px 50px;
+}
+
+body {
+  background-color: black;
+}
+
+/* nav bar */
+/* Style the navigation bar */
+
+nav {
+  background-color: var(
+    --navbar-background
+  ); /* Background color for the navbar */
+  padding: var(--display-padding-10);
+}
+/* making nav bar centered */
+.center-nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the list items (horizontal display) */
+ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the list horizontally */
+}
+
+/* Style the list items */
+li {
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+/* Style the anchor (link) text */
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: var(--navbar-white); /* Text color for links */
+  font-weight: var(--font-bold); /* Make the text bold */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: var(--navbar-hover); /* Change text color on hover */
+}
+
+h1,
+h2,
+button {
+  text-align: center;
+  color: var(--navbar-white);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  color: var(--navbar-white);
+  font-size: 20px;
+}
+
+button {
+  color: red;
+}
