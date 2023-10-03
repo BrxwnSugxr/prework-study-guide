@@ -1,3 +1,118 @@
+/* root  */
+:root {
+  --navbar-white: white;
+  --navbar-background: #333;
+  --navbar-hover: #ff6600;
+  --font-bold: bold;
+  --display-100: 100%;
+  --display-padding-10: 10px 10px 10px 50px;
+}
+
+body {
+  background-color: black;
+}
+
+/* banner */
+
+.banner {
+  width: var(--display-100);
+}
+
+.welcome-msg {
+  padding: 90px 0px 0px 0px;
+}
+
+/* nav bar */
+/* Style the navigation bar */
+nav {
+  background-color: var(
+    --navbar-background
+  ); /* Background color for the navbar */
+  padding: var(--display-padding-10);
+}
+/* making nav bar centered */
+.center-nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the list items (horizontal display) */
+ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the list horizontally */
+}
+
+/* Style the list items */
+li {
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+/* Style the anchor (link) text */
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: var(--navbar-white); /* Text color for links */
+  font-weight: var(--font-bold); /* Make the text bold */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: var(--navbar-hover); /* Change text color on hover */
+}
+
+/* section style format */
+/* Create a container for the layout */
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Spread items evenly horizontally */
+  align-items: center; /* Align items vertically in the center */
+  padding: 20px; /* Add spacing around the container */
+}
+
+/* Style the text side */
+.text {
+  flex: 1; /* Allow the text side to grow to fill available space */
+  padding: 20px; /* Add spacing around the text content */
+}
+
+/* Style the image side */
+.image {
+  flex: 1; /* Allow the image side to grow to fill available space */
+  padding: 20px; /* Add spacing around the image */
+}
+
+/* Style the image to fit within its container */
+.image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
 .strongQuote {
-  font-weight: bold;
+  font-weight: var(--font-bold);
+}
+
+h1,
+h2,
+button {
+  text-align: center;
+  color: var(--navbar-white);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  color: var(--navbar-white);
+  font-size: 20px;
+}
+
+button {
+  color: red;
 }
