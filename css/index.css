@@ -19,7 +19,7 @@ body {
 }
 
 .welcome-msg {
-  padding: 90px 0px 0px 0px;
+  padding: 20px;
 }
 
 /* nav bar */
@@ -69,6 +69,23 @@ a:hover {
   justify-content: space-between; /* Spread items evenly horizontally */
   align-items: center; /* Align items vertically in the center */
   padding: 20px; /* Add spacing around the container */
+}
+
+.text {
+  flex: 1; /* Allow the text side to grow to fill available space */
+  padding: 20px; /* Add spacing around the text content */
+}
+
+/* Style the image side */
+.image {
+  flex: 1; /* Allow the image side to grow to fill available space */
+  padding: 20px; /* Add spacing around the image */
+}
+
+/* Style the image to fit within its container */
+.image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain the image's aspect ratio */
 }
 
 h1,
