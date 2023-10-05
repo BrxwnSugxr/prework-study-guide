@@ -64,7 +64,7 @@ p {
   background-color: var(--button-red);
 }
 
-.randomWordGenerator {
+#randomWordGenerator {
   background-color: var(--button-red);
 }
 
