@@ -2,6 +2,7 @@
 :root {
   --navbar-white: white;
   --navbar-background: #333;
+  --button-red: red;
   --navbar-hover: #ff6600;
   --colourTheme-grey: grey;
   --colourTheme-boxgrey: #888888;
@@ -60,7 +61,11 @@ p {
 }
 
 .btn-statment {
-  color: red;
+  background-color: var(--button-red);
+}
+
+.randomWordGenerator {
+  background-color: var(--button-red);
 }
 
 /* nav bar */
