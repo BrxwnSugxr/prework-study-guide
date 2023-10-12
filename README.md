@@ -27,6 +27,8 @@ No installation is required
 ## Usage
 
 Homepage button and resrouce page link disabled Provide 
+Site map
+Home, The Real Wolrd, Wisdom, Resources 
 
 
 ## Credits
