@@ -4,8 +4,8 @@
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- This Was motivated by Andrew Tate website 
-![Usage](https://img.shields.io/badge/preworkStudyGuide-JavaScript-blue)
+- This Was motivated by Andrew Tate website
+- ![Usage](https://img.shields.io/badge/preworkStudyGuide-JavaScript-blue)
 ![Usage](https://img.shields.io/badge/preworkStudyGuide-HTML-blue)
 ![Usage](https://img.shields.io/badge/preworkStudyGuide-CSS-blue)
   direction for people to handle there emotions 
