@@ -29,6 +29,7 @@ nav {
   background-color: var(
     --navbar-background
   ); /* Background color for the navbar */
+  padding: var(--display-padding-10);
 }
 /* making nav bar centered */
 .center-nav {

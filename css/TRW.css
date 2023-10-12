@@ -25,6 +25,7 @@ footer {
 
 h1,
 h2,
+h3,
 ul {
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@ p {
 }
 
 .welcome-msg {
-  margin: 5%;
+  margin: 1%;
 }
 
 /* nav bar */
@@ -121,24 +122,4 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.button {
-  text-align: center;
-}
-
-.TWR-btn {
-  background-color: transparent;
-  border: 2px solid red;
-  color: white;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: 10px;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-}
-
-.TWR-btn:hover {
-  background-color: red;
-  color: white;
-  border-color: transparent;
 }
