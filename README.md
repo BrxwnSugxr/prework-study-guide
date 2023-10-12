@@ -5,7 +5,9 @@
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - This Was motivated by Andrew Tate website 
-- HTML,CSS,JAVASCRIPT
+![Usage](https://img.shields.io/badge/preworkStudyGuide-JavaScript-blue)
+![Usage](https://img.shields.io/badge/preworkStudyGuide-HTML-blue)
+![Usage](https://img.shields.io/badge/preworkStudyGuide-CSS-blue)
   direction for people to handle there emotions 
 - prework study guide with additional youtube and web development forums
 
@@ -39,11 +41,6 @@ The last section of a high-quality README file is the license. This lets other d
 ---
 
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-![test](https://img.shields.io/badge/preworkStudyGuide-JavaScript-blue)
 
 
 ## Features
