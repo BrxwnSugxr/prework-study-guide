@@ -25,8 +25,8 @@ footer {
 
 h1,
 h2,
-button,
-ul {
+ul,
+p {
   text-align: center;
   color: var(--navbar-white);
 }
@@ -53,19 +53,12 @@ p {
   margin: 40px auto;
   border: 5px solid var(--colourTheme-grey);
   box-shadow: 5px 10px var(--colourTheme-boxgrey);
+  text-align: center;
 }
 
 .card > p {
   padding-left: 40px;
   font-size: 20px;
-}
-
-.btn-statment {
-  background-color: var(--button-red);
-}
-
-#randomWordGenerator {
-  background-color: var(--button-red);
 }
 
 /* nav bar */
@@ -107,4 +100,12 @@ a {
 /* Change link color on hover */
 a:hover {
   color: var(--navbar-hover); /* Change text color on hover */
+}
+
+/* video playlist */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust the height to your preference */
 }
